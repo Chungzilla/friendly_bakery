@@ -1,0 +1,19 @@
+<h1>My cookies... My cookies... My cookies... not my cookies!</h1>
+
+<% @cookie_rendered.each do |cookie| %>
+    <div>
+        <h3>
+            <%= cookie.name %>
+        </h3>
+
+        <img src='<%= cookie.image %>'>
+
+        <p> 
+            <%= cookie.description %>
+        </p>
+
+        <p> 
+            $<%= cookie.price %>
+        </p>
+    </div>
+<% end %>

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Bakery';
+  src: url(fonts/bakery.otf); }
+body {
+  background-image: url("$bg-img");
+  background-size: cover;
+  background-color: #9BFFCB; }
+  body h1 {
+    font-family: 'Bakery';
+    font-size: 5em;
+    text-align: center; }
+  body #logo {
+    height: 35px;
+    width: auto; }
+  body #wrapper {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    align-items: center; }
+    body #wrapper .cards {
+      padding: 200px;
+      border: 5px #630095 solid; }
+      body #wrapper .cards img {
+        height: 150px;
+        width: auto;
+        margin: 30px;
+        text-align: center; }
+      body #wrapper .cards .btn-primary {
+        background-color: white;
+        color: #630095; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,14 @@
+body {
+  background-color: #630095; }
+  body #wrapper {
+    display: flex; }
+    body #wrapper #menu_wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      body #wrapper #menu_wrapper .food_pic {
+        height: 100px;
+        width: auto;
+        text-align: center; }
+
+/*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,11 @@
+#menu_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  #menu_wrapper img {
+    height: 150px;
+    width: auto;
+    margin: 30px;
+    text-align: center; }
+
+/*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,23 @@
+
+<h1>Cake... Cake... Cake...</h1>
+
+
+    <% @cake_rendered.each do |cake| %>
+        <div>
+            <h3>
+                <%= cake.name %>
+            </h3>
+            
+            <img src='<%= cake.image %>' class='food_pic'>
+
+            <p>
+                <%= cake.description %>
+            </p>
+
+            <p> 
+            $<%= cake.price %>
+            </p>
+        </div>
+    <% end %>
+
+

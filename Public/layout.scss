@@ -1,0 +1,22 @@
+@import 'colors';
+
+body{
+    background-color: $purple;
+
+    #wrapper{
+        display: flex;
+
+        #menu_wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+                .food_pic{
+                    height: 100px;
+                    width: auto;
+                    
+                    text-align: center;
+                }
+        }
+    }
+}
