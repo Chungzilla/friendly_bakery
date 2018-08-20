@@ -18,15 +18,24 @@ body {
     justify-content: space-around;
     align-items: center; }
     body #wrapper .cards {
-      padding: 200px;
-      border: 5px #630095 solid; }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 150px;
+      border: 5px #630095 dashed;
+      height: 300px;
+      background-color: white; }
       body #wrapper .cards img {
         height: 150px;
         width: auto;
         margin: 30px;
         text-align: center; }
       body #wrapper .cards .btn-primary {
-        background-color: white;
-        color: #630095; }
+        background-color: #9BFFCB;
+        color: #630095;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 2px solid #630095; }
 
 /*# sourceMappingURL=styles.css.map */
