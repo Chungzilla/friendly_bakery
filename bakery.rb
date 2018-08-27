@@ -17,14 +17,14 @@ choc_chip = Cookie.new(
 macadamia = Cookie.new('Craig Mack-adamia Nut Cookies', 'Here comes some brand new flava in mouth!', 3, '/images/macadamia_cookie.jpg', '/images/craig_mack.jpg')
 
 #Cakes
-black_cake = Cake.new('Black Cake', "This is a cake that's black", 7, '/images/black_cake.jpg')
+lemon_loaf = Cake.new('Vanilla Ice, Ice Lemon Loaf', "This cake is smothered in icing. One would say we waxed a loaf like a candle. Mr. Ice would be proud!", 7, '/images/ice_lemon_loaf.jpg', '/images/vanilla_ice.jpg')
 
-carrot_cake = Cake.new('Carrot Cake', 'This cake has carrots in it', 7, '/images/carrot_cake.jpg')
+keylime = Cake.new('Lil Dicky-Lime Pie', "You don't have to wait for a Freaky Friday just experience the magic in this sweet treat!", 7, '/images/keylime.jpg', '/images/lil_dicky.jpg')
 
 #Muffins
 banana_muffin = Muffin.new('Blueberry Muffin', "This muffin might have blueberries in it. Maaaaaaaybe. If you're allergic to blueberries, I wouldn't eat this, just in case!", 5, '/images/banana_muffin.jpeg')
 
-blueberry_muffin = Muffin.new('Blueberry Muffin', "This muffin might have blueberries in it. Maaaaaaaybe. If you're allergic to blueberries, I wouldn't eat this, just in case!", 5, '/images/blue_muffin.jpg')
+blueberry_muffin = Muffin.new('The Blueberryprint Muffin', "An Amerian classic.'Nuff said!", 5, '/images/blue_muffin.jpg', '/images/jay_z.jpg')
 
 
 
@@ -41,7 +41,7 @@ get '/cookies' do
 end
 
 get '/cakes' do
-    @cake_rendered = [black_cake, carrot_cake]
+    @cake_rendered = [lemon_loaf, keylime]
 
     erb :cake
 end
