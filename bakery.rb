@@ -22,9 +22,9 @@ lemon_loaf = Cake.new('Vanilla Ice, Ice Lemon Loaf', "This cake is smothered in 
 keylime = Cake.new('Lil Dicky-Lime Pie', "You don't have to wait for a Freaky Friday just experience the magic in this sweet treat!", 7, '/images/keylime.jpg', '/images/lil_dicky.jpg')
 
 #Muffins
-banana_muffin = Muffin.new('Aubrey Graham Cracker Muffin', "October's Very Own.... muffin. You can eat this too!", 7, '/images/grahams.jpg', '/images/drake.jpg')
+banana_muffin = Muffin.new('Aubrey Graham Cracker Muffin', "October's Very Own.... muffin.", 7, '/images/grahams.jpg', '/images/drake.jpg')
 
-blueberry_muffin = Muffin.new('The Blueberryprint Muffin', "An Amerian classic.'Nuff said!", 8, '/images/blue_muffin.jpg', '/images/jay_z.jpg')
+blueberry_muffin = Muffin.new('The Blueberryprint Muffin', "An Amerian classic.'Nuff said!", 8, '/images/blueberry.jpg', '/images/jay_z.jpg')
 
 
 
