@@ -5,16 +5,20 @@ body {
   background-image: url("$bg-img");
   background-size: cover;
   background-color: #9BFFCB; }
-  body .page-header {
-    font-family: 'Bakery';
-    font-size: 4em;
+  body .sticky-top {
+    position: sticky; }
+  body #top {
     text-align: center; }
+    body #top .page-header {
+      font-family: 'Bakery';
+      font-size: 4em;
+      text-align: center; }
   body #logo {
     height: 35px;
     width: auto; }
   body #wrapper {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center; }
     body #wrapper .cards {
