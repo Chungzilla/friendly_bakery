@@ -6,8 +6,15 @@ require './cake.rb'
 require './muffin.rb'
 
 #Cookies
-choc_chip = Cookie.new('Chocolate Chip', 'This is a chocolate chip cookie', 3, '/images/choco_cookie.jpg')
-sugar = Cookie.new('Sugar Cookie', 'This is a sugar cookie', 3, '/images/sugar_cookie.jpg')
+choc_chip = Cookie.new(
+    'Bocolate Bip', 
+    "Cardi B's favorite... Aeeeeeeeowwwwwwwwww!", 
+    3, 
+    '/images/choco_cookie.jpg', 
+    '/images/cardib.jpg'
+    )
+
+macadamia = Cookie.new('Craig Mack-adamia', 'This is a sugar cookie', 3, '/images/macadamia_cookie.jpg', '/images/craig_mack.jpg')
 
 #Cakes
 black_cake = Cake.new('Black Cake', "This is a cake that's black", 7, '/images/black_cake.jpg')
@@ -29,7 +36,7 @@ get '/' do
 end
 
 get '/cookies' do
-    @cookie_rendered = [choc_chip, sugar]
+    @cookie_rendered = [choc_chip, macadamia]
     erb :cookie
 end
 

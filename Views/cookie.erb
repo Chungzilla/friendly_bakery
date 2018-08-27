@@ -1,19 +1,28 @@
+
+
 <h1>My cookies... My cookies... My cookies... not my cookies!</h1>
 
 <% @cookie_rendered.each do |cookie| %>
-    <div>
-        <h3>
-            <%= cookie.name %>
-        </h3>
-
-        <img src='<%= cookie.image %>'>
-
-        <p> 
-            <%= cookie.description %>
-        </p>
-
-        <p> 
-            $<%= cookie.price %>
-        </p>
+    <div class="food-wrapper">
+        <div class="menu-info" style="height: 20%;">
+            <h2>
+                <%= cookie.name %>
+            </h2>
+            <div class="pics">
+                <img src='<%= cookie.artist %>' class="food-pic">
+                <img src='<%= cookie.image %>' class="food-pic">
+              
+            </div>
+                
+            <div class="desc">
+                    <%= cookie.description %>
+            </div>
+            <h3> 
+                $<%= cookie.price %>
+            </h3>
+        </div>
     </div>
+
+    <hr>
 <% end %>
+

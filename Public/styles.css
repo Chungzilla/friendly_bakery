@@ -23,7 +23,7 @@ body {
       justify-content: space-around;
       align-items: center;
       padding: 150px;
-      border: 5px #630095 dashed;
+      border: 5px #630095 solid;
       height: 300px;
       background-color: white; }
       body #wrapper .cards img {
@@ -37,5 +37,34 @@ body {
         font-weight: bold;
         text-transform: uppercase;
         border: 2px solid #630095; }
+
+.food-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .food-wrapper .menu-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border: 5px #630095 solid;
+    height: 200px;
+    width: 800px;
+    background-color: white; }
+    .food-wrapper .menu-info .pics {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center; }
+      .food-wrapper .menu-info .pics img {
+        height: 200px;
+        width: auto;
+        margin: 30px;
+        text-align: center; }
+
+hr {
+  color: #630095; }
 
 /*# sourceMappingURL=styles.css.map */
