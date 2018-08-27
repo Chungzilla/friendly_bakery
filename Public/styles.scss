@@ -1,15 +1,24 @@
+
+
 $bg-img: image-url('images/jazz_print.jpg', true, true);
 @import 'fonts';
 @import 'colors';
 body{
-    
+    .sticky-top{
+        position: sticky;
+    }
     background-image: url('$bg-img'); 
     background-size: cover;
     background-color: $green;
-    .page-header{
-        font-family: 'Bakery';
-        font-size: 4em;
+    #top{
         text-align: center;
+    
+        .page-header{
+            font-family: 'Bakery';
+            font-size: 4em;
+            text-align: center;
+        }
+
     }
     #logo {
         height: 35px;
@@ -17,7 +26,7 @@ body{
     } 
     #wrapper{
         display: flex;
-        flex-direction: row wrap;
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
         .cards{
@@ -87,3 +96,6 @@ body{
 hr{
     color: $purple;
 }
+
+
+
