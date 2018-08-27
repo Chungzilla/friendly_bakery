@@ -1,19 +1,36 @@
-<h1>Muffin</h1>
+
+<div class="page-header">
+
+" muffin, muffin, muffin, muffin, muffin
+muffin, muffin, muffin, muffin, muffin
+muffin, muffin, muffin, muffin, muffin"
+- Rihanna
+</div>
 
 <% @muffin_rendered.each do |muffin| %>
-    <div>
-        <h3>
+<div class="food-wrapper">
+    <div class="menu-info" style="height: 20%;">
+        <h2>
             <%= muffin.name %>
-        </h3>
-        
-        <img src='<%= muffin.image %>'>
-
-       <p>
-        <%= muffin.description %>
-       </p>
-
-        <p> 
-        $<%= muffin.price %>
-        </p>
+        </h2>
+        <div class="pics">
+            <img src='<%= muffin.artist %>' class="food-pic">
+            <img src='<%= muffin.image %>' class="food-pic">
+          
+        </div>
+            
+        <div class="desc">
+                <%= muffin.description %>
+        </div>
+        <h2> 
+            $<%= muffin.price %>
+        </h2>
     </div>
+</div>
+
+<hr>
 <% end %>
+
+
+
+
