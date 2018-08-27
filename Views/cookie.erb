@@ -1,6 +1,9 @@
 
+<div class="page-header">
 
-<h1>My cookies... My cookies... My cookies... not my cookies!</h1>
+    " My cookies... My cookies... My cookies... Not my cookies!"
+    - Ciara
+</div>
 
 <% @cookie_rendered.each do |cookie| %>
     <div class="food-wrapper">
@@ -17,9 +20,9 @@
             <div class="desc">
                     <%= cookie.description %>
             </div>
-            <h3> 
+            <h2> 
                 $<%= cookie.price %>
-            </h3>
+            </h2>
         </div>
     </div>
 

@@ -7,14 +7,14 @@ require './muffin.rb'
 
 #Cookies
 choc_chip = Cookie.new(
-    'Bocolate Bip', 
+    'Bocolate Bip Bookie', 
     "Cardi B's favorite... Aeeeeeeeowwwwwwwwww!", 
     3, 
     '/images/choco_cookie.jpg', 
     '/images/cardib.jpg'
     )
 
-macadamia = Cookie.new('Craig Mack-adamia', 'This is a sugar cookie', 3, '/images/macadamia_cookie.jpg', '/images/craig_mack.jpg')
+macadamia = Cookie.new('Craig Mack-adamia Nut Cookies', 'Here comes some brand new flava in mouth!', 3, '/images/macadamia_cookie.jpg', '/images/craig_mack.jpg')
 
 #Cakes
 black_cake = Cake.new('Black Cake', "This is a cake that's black", 7, '/images/black_cake.jpg')

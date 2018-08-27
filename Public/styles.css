@@ -5,9 +5,9 @@ body {
   background-image: url("$bg-img");
   background-size: cover;
   background-color: #9BFFCB; }
-  body h1 {
+  body .page-header {
     font-family: 'Bakery';
-    font-size: 5em;
+    font-size: 4em;
     text-align: center; }
   body #logo {
     height: 35px;
