@@ -16,7 +16,7 @@ ruby bakery.rb
 ### Interacting
 
 The app is now up and running! You should see the following in your terminal:
-<img src="app_running.png">
+[This means the app is running](https://github.com/Chungzilla/friendly_bakery/app_running.png)
 
 
 ```
