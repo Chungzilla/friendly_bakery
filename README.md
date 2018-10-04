@@ -1,3 +1,81 @@
 # These Are the Bakes
-A friendly bakkery
+A fullstack hip-hop bakery website that displays information on cookies, cakes and muffins offered for sale.
+
+## Getting Started
+
+You will need to have Ruby and Sinatra gems installed in order to interact with this application. These prerequisites are included with the app. You'll just need to fork and download this repo :-)
+
+### Installing
+
+After you have the repo on your local machine, in your ternminal, navigate to a directory of your choice and run the following command:
+
+```
+ruby bakery.rb
+```
+
+### Interacting
+
+The app is now up and running! You should see the following in your terminal:
+[This means the app is running](https://github.com/Chungzilla/friendly_bakery/app_running.png)
+
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
